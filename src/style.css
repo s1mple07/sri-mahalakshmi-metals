@@ -7,6 +7,7 @@
   --primary-color: #7D2E2E;
   --light-brown-color: #E8D5C4;
   --secondary-color: #F59E0B;
+  --product-color:#FFB900;
   --normal-size: 18px;
   --para-size: 16px;
   --black-color: black;
@@ -517,33 +518,54 @@ p {
 }
 
 .product-item {
+  position: relative;
   cursor: pointer;
   border-radius: 20px;
   padding: 10px;
-  background-color: var(--light-brown-color);
-  border: 1px solid var(--secondary-color);
+  border: 5px outset var(--product-color);
   text-align: center;
+  background-image:url("/Productbg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  aspect-ratio: 16/4;
   transition: 0.5s ease;
+  animation: right linear;
+  animation-timeline:view();
+  animation-range:entry 10px;
 }
-
+@keyframes right{
+  from{opacity: 0;transform: translateX(300px);}
+  to{opacity: 1;transform: translateX(0px);}
+}
 .product-item:hover {
   transform: translateY(-15px);
   -webkit-box-shadow: 0px 0px 24px 10px #E8D5C4;
   box-shadow: 0px 0px 24px 10px #E8D5C4;
 }
-
-.metal-section h4 {
-  font-size: var(--footer-title-size);
-  color: brown;
-  padding: 15px 0px 10px 0px;
-  text-transform: uppercase;
+.product-item h4{
+   font-family: "Arial Black", Gadget, sans-serif;
+   color:var(--product-color);
+   font-size: var(--footer-title-size);
+   padding: 5px 0px 10px 0px;
+   text-transform: uppercase;
 }
-
+.tag{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-family: var(--font-inter);
+  text-transform: capitalize;
+  background: #d97706;
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+}
 .img-box {
   width: 100%;
   aspect-ratio: 1/1;
   overflow: hidden;
-  border-radius: 10px;
 }
 
 .img-box img {
@@ -949,7 +971,7 @@ p {
   max-width: 450px;
   width: 100%;
   padding: 15px;
-  color: var(--primary-color);
+  color: var(--secondary-color);
   border: none;
   background-color: transparent;
   border-bottom: 1px solid var(--primary-color);
@@ -1518,6 +1540,10 @@ textarea:focus {
   max-width: 500px;
   overflow: hidden;
   border-radius: 20px;
+  background-image:url("/Productbg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .whatsapp-productlogo {
@@ -1551,12 +1577,16 @@ textarea:focus {
   height: 70px;
   object-fit: cover;
   cursor: pointer;
+  background-image:url("/Productbg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   border: 2px solid transparent;
   border-radius: 6px;
 }
 
 .thumbnail-list img.active {
-  border: 2px solid var(--secondary-color);
+  border: 3px inset var(--secondary-color);
 }
 
 .product-content {
@@ -1568,6 +1598,23 @@ textarea:focus {
   position: relative;
   text-align: left;
   cursor: pointer;
+  color: brown;
+  letter-spacing: 1.5;
+   font-family: "Arial Black", Gadget, sans-serif;
+    text-shadow: 0px 0px 0 rgb(246,184,0),
+                 1px 1px 0 rgb(237,175,0),
+                 2px 2px 0 rgb(228,166,0),
+                 3px 3px 0 rgb(219,157,0),
+                 4px 4px 0 rgb(210,148,0),
+                 5px 5px 0 rgb(200,138,0),
+                 6px 6px 0 rgb(191,129,0),
+                 7px 7px 0 rgb(182,120,0),
+                 8px 8px 0 rgb(173,111,0),
+                 9px 9px 0 rgb(164,102,0),
+                 10px 10px  0 rgb(155,93,0),
+                 11px 11px 10px rgba(0,0,0,0),
+                 11px 11px 1px rgba(0,0,0,0.5),
+                 0px 0px 10px rgba(0,0,0,.2);
 }
 
 .product-content h3::after {
@@ -1578,7 +1625,7 @@ textarea:focus {
   height: 3px;
   width: 0;
   border-radius: 20px;
-  background-color: var(--secondary-color);
+  background-color: brown;
   transition: 0.5s ease;
 }
 
@@ -1598,6 +1645,7 @@ textarea:focus {
   cursor: pointer;
   color: var(--secondary-color);
   text-transform: capitalize;
+  
 }
 
 .product-content ul {

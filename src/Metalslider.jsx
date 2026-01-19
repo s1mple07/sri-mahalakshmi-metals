@@ -8,14 +8,14 @@ export default function Metalslider() {
   const [slidesPerView, setSlidesPerView] = useState(4);
 
   const slides = [
-    { img: "./Frame 15.png", link: "/product/narasimha", item_name: "narasimha" },
-    { img: "./Brass-Product/Brass Product - 04.png", link: "/product/maha lakshmi amman", item_name: "maha lakshmi amman" },
-    { img: "./Frame 13.png", link: "/product/vinayagar", item_name: "vinayagar" },
-    { img: "./Frame 14.png", link: "/product/hanuman", item_name: "hanuman" },
-    { img: "./Product Image/Product image -04.png", link: "/product/KALASAM", item_name: "KALASAM" },
-    { img: "./Frame 12.png", link: "/product/brass", item_name: "DHANVANTARI" },
-    { img: "./Brass-Product/Brass Product - 01.png", link: "/product/murugan", item_name: "murugan" },
-    { img: "./Brass-Product/Brass Product - 03.png", link: "/product/krishna", item_name: "krishna" },
+    { img: "./Brass-Product/Brass Product - 02.png",tag:"best sell", link: "/product/narasimha", item_name: "narasimha" },
+    { img: "./Brass-Product/Brass Product - 04.png",tag:"limited", link: "/product/maha lakshmi amman", item_name: "maha lakshmi amman" },
+    { img: "./Product Image/Product image -02.png",tag:"best sell", link: "/product/vinayagar", item_name: "vinayagar" },
+    { img: "./Product Image/Product image -03.png", link: "/product/hanuman", item_name: "hanuman" },
+    { img: "./Product Image/Product image -04.png",tag:"best sell", link: "/product/KALASAM", item_name: "KALASAM" },
+    { img: "./Product Image/Product image -01.png",tag:"best sell", link: "/product/brass", item_name: "DHANVANTARI" },
+    { img: "./Brass-Product/Brass Product - 01.png",tag:"best sell", link: "/product/murugan", item_name: "murugan" },
+    { img: "./Brass-Product/Brass Product - 03.png",tag:"best sell", link: "/product/krishna", item_name: "krishna" },
   ];
 
   // Responsive slidesPerView
@@ -69,6 +69,7 @@ export default function Metalslider() {
         {slides.map((slide, i) => (
           <Link to={slide.link} key={i} className="slide">
             <div className="product-item">
+              {slide.tag && <span className="tag">{slide.tag}</span>}
               <div className="img-box">
                 <img src={slide.img} alt="metal" />
               </div>

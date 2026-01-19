@@ -18,10 +18,9 @@ export default function Testimonialslider() {
         { profile: "./profile3.jpg", star: "★ ★ ★ ★ ☆", profile_name: "vijay"  ,review:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque accusantium possimus amet, nesciunt impedit vel quo. Inventore nostrum fuga, perspiciatis adipisci ipsa, rem quas illum et, aliquid deserunt expedita veniam?"},
     ];
 
-     useEffect(() => {
+       useEffect(() => {
     const updateSlides = () => {
-      if (window.innerWidth < 480) setSlidesPerView(1);
-      else if (window.innerWidth < 768) setSlidesPerView(1);
+      if (window.innerWidth < 768) setSlidesPerView(1);
       else setSlidesPerView(3);
 
       indexRef.current = 0;
@@ -33,17 +32,18 @@ export default function Testimonialslider() {
     return () => window.removeEventListener("resize", updateSlides);
   }, []);
 
-    const maxIndex = slides.length - slidesPerView;
+  const maxIndex = slides.length - slidesPerView;
 
-    const moveSlide = (i) => {
-        if (i < 0) i = maxIndex;
-        if (i > maxIndex) i = 0; 
+  /* ---------- Move Slide (PIXEL BASED) ---------- */
+  const moveSlide = (i) => {
+    const slideWidth = sliderRef.current.children[0].offsetWidth;
 
-        indexRef.current = i;
-        sliderRef.current.style.transform = `translateX(-${i * (100 / slidesPerView)
-            }%)`;
-    };
+    if (i < 0) i = maxIndex;
+    if (i > maxIndex) i = 0;
 
+    indexRef.current = i;
+    sliderRef.current.style.transform = `translateX(-${i * slideWidth}px)`;
+  };
     // Touch swipe
     const onTouchStart = (e) => {
         startX.current = e.touches[0].clientX;
