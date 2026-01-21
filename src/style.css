@@ -421,6 +421,14 @@ a{
 /* hero-section */
 .hero-section {
   width: 100%;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.hero-section.show {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .hero-container {
@@ -428,8 +436,15 @@ a{
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   align-items: center;
-}
 
+  opacity: 0;
+  transform: scale(0.95);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.hero-container.show {
+  opacity: 1;
+  transform: scale(1);
+}
 .video-bg {
   height: 100%;
   width: 100%;
@@ -494,8 +509,14 @@ a{
   padding: 0px 20px;
   margin: 0 auto;
   text-align: center;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 2s ease, transform 2s ease;
 }
-
+.metal-section.show {
+  opacity: 1;
+  transform: translateY(0);
+}
 /* metal-Container-slider*/
 .slider-container {
   position: relative;
