@@ -111,10 +111,6 @@ export default function Collection() {
                             </div>))}
 
                     </div>
-
-
-
-                    <button className='button2'> explore more</button>
                 </div>
 
 

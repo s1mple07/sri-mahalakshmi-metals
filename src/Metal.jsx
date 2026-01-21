@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import Metalslider from './Metalslider.jsx'
 
 export default function Metal() {
@@ -14,7 +15,7 @@ export default function Metal() {
     
         <Metalslider/>
 
-            <button className='button2'> explore more</button>
+            <Link to="/AllProduct"><button className='button2'> explore more</button></Link>
         </div>
 
 

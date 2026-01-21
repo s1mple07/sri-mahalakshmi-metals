@@ -7,6 +7,7 @@ import Collectionpage from './collectionpage';
 import Aboutus from './Aboutus'
 import ScrollToHash from './ScrollToHash';
 import ProductView from "./Productview";
+import Allproduct from './Allproduct';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -16,6 +17,7 @@ createRoot(document.getElementById('root')).render(
          <Route path='/'   element= {<Home/>}/>
          <Route path='/collection'   element= {<Collectionpage/>}/>
          <Route path='/Aboutus'   element= {<Aboutus/>}/>
+         <Route path='/AllProduct'   element= {<Allproduct/>}/>
          <Route path="/product/:slug" element={<ProductView />} />
       </Routes>
      </BrowserRouter>

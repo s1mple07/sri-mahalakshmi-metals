@@ -62,6 +62,7 @@ export default function Metalslider() {
     if (diff > 50) moveSlide(indexRef.current + 1);
     if (diff < -50) moveSlide(indexRef.current - 1);
   };
+  
 
   return (
     <div className="slider-container" onTouchStart={onTouchStart} onTouchEnd={onTouchEnd}>

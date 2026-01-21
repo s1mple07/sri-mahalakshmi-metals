@@ -107,6 +107,7 @@ export default function FeaturedCollections() {
             </div>
           ))}
         </div>
+        <button className='button2 collection-btn' > explore more</button>
       </div>
     </section>
   );
