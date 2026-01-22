@@ -53,7 +53,7 @@ export default function Productview() {
                             {activeImage && (
                                 <img src={activeImage} alt={product?.name || "Product"} />
                             )}
-                            <img src="/whatsapp-icon.png" className="whatsapp-productlogo" alt="whatsapp-logo" />
+                             <a href="https://wa.me/918637446196?text=Hello%20I%20need%20details"><img src="/whatsapp-icon.png" className="whatsapp-productlogo" alt="whatsapp-logo" /></a>
                         </div>
 
                         {/* THUMBNAILS */}

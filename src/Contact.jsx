@@ -9,7 +9,7 @@ export default function Contact() {
   const handleWhatsApp = (e) => {
     e.preventDefault();
 
-    const phoneNumber = "916374065941";
+    const phoneNumber = "918637446196";
 
     const text = `
 Name: ${name}

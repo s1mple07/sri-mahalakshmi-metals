@@ -5,9 +5,11 @@
 
 :root {
   --primary-color: #7D2E2E;
+  --brown-color:brown;
   --light-brown-color: #E8D5C4;
   --secondary-color: #F59E0B;
   --product-color:#FFB900;
+  --orange-color:#f67900;
   --normal-size: 18px;
   --para-size: 16px;
   --black-color: black;
@@ -124,7 +126,6 @@ a{
   max-height: 60px;
   max-width: 60px;
   aspect-ratio: 1/1;
-  background-color: #7D2E2E;
 }
 
 .nav {
@@ -565,6 +566,7 @@ a{
    font-size: var(--footer-title-size);
    padding: 5px 0px 10px 0px;
    text-transform: uppercase;
+   font-weight: 700;
 }
 .tag{
   position: absolute;
@@ -730,6 +732,7 @@ a{
   background: #d97706;
   color: #fff;
   padding: 6px 14px;
+  font-family: var(--font-inter);
   border-radius: 20px;
   font-size: 14px;
 }
@@ -899,7 +902,7 @@ a{
 }
 
 .info-content h5 {
-  color: var(--primary-color);
+  color: var(--orange-color);
   font-family: var(--font-inter);
   font-size: var(--get-touch-title);
   text-transform: capitalize;
@@ -947,7 +950,7 @@ a{
   font-size: var(--normal-size);
   font-family: var(--font-inter);
   text-transform: capitalize;
-  color: var(--primary-color);
+  color: var(--orange-color);
 }
 
 .bussiness-time {
@@ -981,18 +984,17 @@ a{
   font-size: var(--para-size);
   font-family: var(--font-inter);
   text-transform: capitalize;
-  color: var(--primary-color);
+  color: var(--orange-color);
   padding-bottom: 10px;
 }
 
 .contact-form input {
-  max-width: 450px;
-  width: 100%;
+  width: calc(100% - 50px);
   padding: 15px;
   color: var(--secondary-color);
   border: none;
   background-color: transparent;
-  border-bottom: 1px solid var(--primary-color);
+  border-bottom: 1px solid var(--brown-color);
   margin-bottom: 10px;
 }
 
@@ -1000,7 +1002,7 @@ a{
 .contact-form textarea::placeholder {
   font-family: var(--font-inter);
   text-transform: capitalize;
-  color: var(--primary-color);
+  color: var(--brown-color);
   transition: 0.5s ease;
 }
 
@@ -1020,13 +1022,12 @@ textarea:focus {
 }
 
 .contact-form textarea {
-  max-width: 450px;
+  width: calc(100% - 50px);
   height: 300px;
-  width: 100%;
   padding: 15px;
   background-color: transparent;
   border-radius: 10px;
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--brown-color);
   margin-bottom: 10px;
   color: var(--secondary-color);
 }
@@ -1788,7 +1789,6 @@ textarea:focus {
 
 .product-grid h4 {
   padding: 10px 0px 0px 0px;
-  text-transform: capitalize;
 }
 
 
@@ -2016,7 +2016,7 @@ textarea:focus {
   .testimonial {
     flex: 0 0 calc(100% - 15px);
   }
-
+ 
   .footer-box {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -2068,6 +2068,7 @@ textarea:focus {
 
 }
 
+
 @media (max-width: 480px) {
   .nav {
     padding: 10px 30px;
@@ -2101,16 +2102,6 @@ textarea:focus {
 
   .bussiness-time h6 {
     padding-left: 20px
-  }
-
-  .contact-form input {
-    max-width: 330px;
-    width: 100%;
-  }
-
-  .contact-form textarea {
-    max-width: 330px;
-    width: 100%;
   }
 
   .footer-box {
