@@ -100,12 +100,14 @@ export default function Collection() {
                                         <h3 className="back-title">{item.title}</h3>
                                         <p>{item.description}</p>
 
-                                        <button className="whatapp-Btn">
-                                            <span className="svgContainer">
-                                                <i className="fa fa-whatsapp"></i>
-                                            </span>
-                                            <span className="whatapp-Btn-BG"></span>
-                                        </button>
+                                        <a href="https://wa.me/918637446196?text=Hello%0AI%20need%20details">
+                                            <button className="whatapp-Btn">
+                                                <span className="svgContainer">
+                                                    <i className="fa fa-whatsapp"></i>
+                                                </span>
+                                                <span className="whatapp-Btn-BG"></span>
+                                            </button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>))}

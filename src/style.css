@@ -5,11 +5,11 @@
 
 :root {
   --primary-color: #7D2E2E;
-  --brown-color:brown;
+  --brown-color: brown;
   --light-brown-color: #E8D5C4;
   --secondary-color: #F59E0B;
-  --product-color:#FFB900;
-  --orange-color:#f67900;
+  --product-color: #FFB900;
+  --orange-color: #f67900;
   --normal-size: 18px;
   --para-size: 16px;
   --black-color: black;
@@ -108,9 +108,11 @@ p {
   font-family: var(--font-inter);
   font-weight: var(--font-normal-weight);
 }
-a{
+
+a {
   text-decoration: none;
 }
+
 /* nav-section */
 .nav-section {
   width: 100%;
@@ -122,6 +124,12 @@ a{
 }
 
 /* logo */
+.logo-box {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .logo-box img {
   max-height: 60px;
   max-width: 60px;
@@ -442,10 +450,12 @@ a{
   transform: scale(0.95);
   transition: opacity 0.8s ease, transform 0.8s ease;
 }
+
 .hero-container.show {
   opacity: 1;
   transform: scale(1);
 }
+
 .video-bg {
   height: 100%;
   width: 100%;
@@ -514,10 +524,12 @@ a{
   transform: translateY(40px);
   transition: opacity 2s ease, transform 2s ease;
 }
+
 .metal-section.show {
   opacity: 1;
   transform: translateY(0);
 }
+
 /* metal-Container-slider*/
 .slider-container {
   position: relative;
@@ -548,27 +560,30 @@ a{
   padding: 10px;
   border: 5px outset var(--product-color);
   text-align: center;
-  background-image:url("/Productbg.jpg");
+  background-image: url("/Productbg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   aspect-ratio: 16/4;
   transition: 0.5s ease;
 }
+
 .product-item:hover {
   transform: translateY(-15px);
   -webkit-box-shadow: 0px 0px 24px 10px #E8D5C4;
   box-shadow: 0px 0px 24px 10px #E8D5C4;
 }
-.product-item h4{
-   font-family: "Arial Black", Gadget, sans-serif;
-   color:var(--product-color);
-   font-size: var(--footer-title-size);
-   padding: 5px 0px 10px 0px;
-   text-transform: uppercase;
-   font-weight: 700;
+
+.product-item h4 {
+  font-family: "Arial Black", Gadget, sans-serif;
+  color: var(--product-color);
+  font-size: var(--footer-title-size);
+  padding: 5px 0px 10px 0px;
+  text-transform: uppercase;
+  font-weight: 700;
 }
-.tag{
+
+.tag {
   position: absolute;
   top: 10px;
   right: 10px;
@@ -580,6 +595,7 @@ a{
   border-radius: 20px;
   font-size: 14px;
 }
+
 .img-box {
   width: 100%;
   aspect-ratio: 1/1;
@@ -754,7 +770,8 @@ a{
   font-size: 15px;
   text-align: center;
 }
-.collection-btn{
+
+.collection-btn {
   margin-top: 50px;
 }
 
@@ -1177,7 +1194,7 @@ textarea:focus {
   font-size: var(--footer-title-size);
   color: var(--white-color);
   font-weight: var(--font-bold-weight);
-  margin-bottom: 30px;
+  margin: 20px 0px 30px 0px;
   text-transform: capitalize;
 }
 
@@ -1227,16 +1244,17 @@ textarea:focus {
   background-color: var(--primary-color);
 }
 
-.copy-right {
+.copy-right a {
   font-family: var(--font-inter);
   font-size: var(--para-size);
   color: var(--footer-content-color);
   font-weight: var(--font-normal-weight);
   margin-bottom: 15px;
   text-transform: capitalize;
+  transition: 0.5s ease;
 }
 
-.copy-right span:hover {
+.copy-right a:hover {
   color: var(--footer-logo-color);
 }
 
@@ -1559,7 +1577,7 @@ textarea:focus {
   max-width: 500px;
   overflow: hidden;
   border-radius: 20px;
-  background-image:url("/Productbg.jpg");
+  background-image: url("/Productbg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1596,7 +1614,7 @@ textarea:focus {
   height: 70px;
   object-fit: cover;
   cursor: pointer;
-  background-image:url("/Productbg.jpg");
+  background-image: url("/Productbg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1619,11 +1637,11 @@ textarea:focus {
   cursor: pointer;
   color: brown;
   letter-spacing: 1.5;
-   font-family: "Arial Black", Gadget, sans-serif;
-    text-shadow: 0px 0px 0 rgb(246,184,0),
-                 1px 1px 0 rgb(237,175,0),
-                 2px 2px 0 rgb(228,166,0),
-                 3px 3px 0 rgb(219,157,0);
+  font-family: "Arial Black", Gadget, sans-serif;
+  text-shadow: 0px 0px 0 rgb(246, 184, 0),
+    1px 1px 0 rgb(237, 175, 0),
+    2px 2px 0 rgb(228, 166, 0),
+    3px 3px 0 rgb(219, 157, 0);
 }
 
 .product-content h3::after {
@@ -1654,7 +1672,7 @@ textarea:focus {
   cursor: pointer;
   color: var(--secondary-color);
   text-transform: capitalize;
-  
+
 }
 
 .product-content ul {
@@ -1747,11 +1765,13 @@ textarea:focus {
   margin: auto;
   padding-top: 50px;
 }
-.Recommendedproduct-section h3{
+
+.Recommendedproduct-section h3 {
   cursor: pointer;
   position: relative;
 }
-.Recommendedproduct-section h3::after{
+
+.Recommendedproduct-section h3::after {
   content: "";
   position: absolute;
   left: 43%;
@@ -1766,6 +1786,7 @@ textarea:focus {
 .Recommendedproduct-section h3:hover::after {
   width: 15%;
 }
+
 .product-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1779,10 +1800,12 @@ textarea:focus {
     opacity 0.7s ease,
     transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
 }
+
 .product-grid.show {
   opacity: 1;
   transform: translateX(0);
 }
+
 .product-grid a {
   text-decoration: none;
 }
@@ -1803,11 +1826,13 @@ textarea:focus {
   margin: auto;
   padding-top: 50px;
 }
-.allproduct-section h3{
+
+.allproduct-section h3 {
   cursor: pointer;
   position: relative;
 }
-.allproduct-section h3::after{
+
+.allproduct-section h3::after {
   content: "";
   position: absolute;
   left: 43%;
@@ -1942,6 +1967,10 @@ textarea:focus {
     grid-column: span 3;
   }
 
+  #footer-title {
+    margin: 0px 0px 30px 0px;
+  }
+
   .footer-item p {
     max-width: 800px;
   }
@@ -2016,7 +2045,7 @@ textarea:focus {
   .testimonial {
     flex: 0 0 calc(100% - 15px);
   }
- 
+
   .footer-box {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -2062,9 +2091,10 @@ textarea:focus {
   .product-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .product-content ul {
     padding: 0px;
-}
+  }
 
 }
 
@@ -2115,6 +2145,10 @@ textarea:focus {
     grid-column: span 1;
   }
 
+  .footer-item h3 {
+    font-size: var(--footer-title-size);
+  }
+
   .footer-item p {
     max-width: 800px;
   }
@@ -2135,9 +2169,10 @@ textarea:focus {
   .our-story {
     padding: 30px 5px;
   }
-  .product-grid{
-  grid-template-columns: repeat(1,1fr);
-}
+
+  .product-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 @media (max-width: 360px) {
