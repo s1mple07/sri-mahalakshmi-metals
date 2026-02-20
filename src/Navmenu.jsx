@@ -15,7 +15,7 @@ export default function Navmenu() {
             document.body.style.backgroundColor = "#FFF7ED";
             document.body.style.color = "#6B7280";
             localStorage.setItem("theme", "light");
-            
+
         } else {
             // Dark MODE
             document.body.style.backgroundColor = "#1F1F1F";
@@ -23,6 +23,26 @@ export default function Navmenu() {
             localStorage.setItem("theme", "dark");
         }
     }, [darkMode]);
+
+
+    const products = [
+        { name: "Ayyappan", path: "Ayyappan" },
+        { name: "Beedam", path: "Beedam" },
+        { name: "crown", path: "crown" },
+        { name: "Jadari", path: "Jadari" },
+        { name: "Kala Bhairavar", path: "Kala Bhairavar" },
+        { name: "Hanuman", path: "hanuman" },
+        { name: "Lakshmi", path: "maha lakshmi amman" },
+        { name: "Murugan", path: "murugan" },
+        { name: "Vishnu", path: "Vishnu" },
+        { name: "Narasiman", path: "narasimha" },
+        { name: "Parrot", path: "parrot" },
+        { name: "Ramar", path: "Ramar" },
+        { name: "Thiruvachi", path: "Thiruvachi" },
+        { name: "Vaganam", path: "Vaganam" },
+        { name: "Varagaiamman", path: "varagaiamman" },
+        { name: "Vinayagar", path: "vinayagar" }
+    ];
 
 
     return (
@@ -39,11 +59,13 @@ export default function Navmenu() {
                         <li><Link to="/#contact-us">Contact Us</Link></li>
                         <li className="dropdown"><Link to="/" className="dropbtn">God Idols <i className="fa fa-angle-down"></i></Link>
                             <ul className="dropdown-menu " id='dropmenu-menu'>
-                                <li><Link to="/">mahalaksmi-metal</Link></li>
-                                <li><Link to="/">Development</Link></li>
-                                <li><Link to="/">SEO</Link></li>
-                                <li><Link to="/">SEO</Link></li>
-                                <li><Link to="/">SEO</Link></li>
+                                {products.map((item, index) => (
+                                    <li key={index}>
+                                        <Link to={`/product/${item.path}`}>
+                                            {item.name}
+                                        </Link>
+                                    </li>
+                                ))}
                             </ul>
                         </li>
                         <li><Link to="/collection">Pooja Items</Link></li>
@@ -103,11 +125,13 @@ export default function Navmenu() {
                                 <li><Link to="/#contact-us">Contact Us</Link></li>
                                 <li className="dropdown"><Link to="/" className="dropbtn">God Idols <i className="fa fa-angle-down"></i></Link>
                                     <ul className="dropdown-menu " id='dropmenu-menu'>
-                                        <li><Link to="/">mahalaksmi-metal</Link></li>
-                                        <li><Link to="/">Development</Link></li>
-                                        <li><Link to="/">SEO</Link></li>
-                                        <li><Link to="/">SEO</Link></li>
-                                        <li><Link to="/">SEO</Link></li>
+                                        {products.map((item, index) => (
+                                            <li key={index}>
+                                                <Link to={`/product/${item.path}`}>
+                                                    {item.name}
+                                                </Link>
+                                            </li>
+                                        ))}
                                     </ul>
                                 </li>
                                 <li><Link to="/collection">Pooja Items</Link></li>

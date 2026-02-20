@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function FeaturedCollections() {
   const [isVisible, setIsVisible] = useState(false);
@@ -28,6 +29,7 @@ export default function FeaturedCollections() {
       image:
         "https://images.unsplash.com/photo-1760857067352-5fb8d6e9245f",
       category: "God Idols",
+      path:"vinayagar",
     },
     {
       id: 2,
@@ -36,6 +38,7 @@ export default function FeaturedCollections() {
       image:
         "https://images.unsplash.com/photo-1622030254668-543c6d779833",
       category: "God Idols",
+      path:"vinayagar",
     },
     {
       id: 3,
@@ -44,6 +47,7 @@ export default function FeaturedCollections() {
       image:
         "https://images.unsplash.com/photo-1763475944771-702683b1b42c",
       category: "God Idols",
+      path:"vinayagar",
     },
     {
       id: 4,
@@ -52,6 +56,7 @@ export default function FeaturedCollections() {
       image:
         "https://images.unsplash.com/photo-1755257116173-ff2269223971",
       category: "Pooja Items",
+      path:"vinayagar",
     },
     {
       id: 5,
@@ -60,6 +65,7 @@ export default function FeaturedCollections() {
       image:
         "https://images.unsplash.com/photo-1674547541476-7f254bc2e463",
       category: "Pooja Items",
+      path:"vinayagar",
     },
     {
       id: 6,
@@ -68,6 +74,7 @@ export default function FeaturedCollections() {
       image:
         "https://images.unsplash.com/photo-1674547541476-7f254bc2e463",
       category: "Pooja Items",
+      path:"vinayagar",
     }
   ];
 
@@ -89,6 +96,8 @@ export default function FeaturedCollections() {
         {/* Cards */}
         <div className="collections-grid">
           {collections.map((item, index) => (
+
+            <Link   key={item.id}  to={`/product/${item.path}`}>
             <div
               key={item.id}
               className="collection-card"
@@ -105,8 +114,12 @@ export default function FeaturedCollections() {
                 <p>{item.description}</p>
               </div>
             </div>
+
+            </Link>
           ))}
         </div>
+
+        
         <button className='button2 collection-btn' > explore more</button>
       </div>
     </section>

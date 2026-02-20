@@ -77,14 +77,21 @@ export default function Productview() {
                         <p>{product.description}</p>
 
                         <h4>Product detail :</h4>
-                        <ul>
-                            <li><h5>height   :</h5>    <span>{product.height}</span></li>
-                            <li><h5>length   :</h5>    <span>{product.length}</span></li>
-                            <li><h5>width    :</h5>    <span>{product.width}</span></li>
-                            <li><h5>weight   :</h5>    <span>{product.weight}</span></li>
-                            <li><h5>material :</h5>    <span>{product.material}</span></li>
-                            <li><h5>finishing:</h5>  <span>{product.finishing}</span> </li>
-                        </ul>
+                        <div className="productdetail-section">
+                            <div className="productdetail-item1"> 
+                                  <li><h5>Dimensions   :</h5></li>
+                                  <li><h5>Customization   :</h5></li>
+                                  <li><h5>material :</h5></li>
+                                  <li><h5>finishing:</h5></li>
+                            </div>
+                            <div className="productdetail-item2">
+                                 <li><span>{product.Dimensions}</span></li>
+                                 <li><span>{product.Customization}</span></li>
+                                 <li><span>{product.material}</span></li>
+                                 <li><span>{product.finishing}</span> </li>
+                            </div>
+                        </div>
+                       
 
                         <a href="https://wa.me/918637446196?text=Hello%0AI%20need%20details">
                             <div className="product-btn">

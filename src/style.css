@@ -1675,6 +1675,19 @@ textarea:focus {
 
 }
 
+.productdetail-section {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.productdetail-item1 {
+  padding: 5px;
+}
+
+.productdetail-item2 {
+  padding: 5px;
+}
+
 .product-content ul {
   padding: 10px 10px 10px 0px;
 }
@@ -1862,7 +1875,7 @@ textarea:focus {
 
   .container {
     width: 100%;
-    padding: 160px 0px 0px 0px;
+    padding: 120px 0px 0px 0px;
   }
 
   #normal-link {
@@ -1996,6 +2009,11 @@ textarea:focus {
     gap: 30px;
   }
 
+  .productdetail-section {
+    display: grid;
+    grid-template-columns: 30% 70%;
+  }
+
 }
 
 
@@ -2003,6 +2021,10 @@ textarea:focus {
 
 /* Responsive */
 @media (max-width: 1024px) {
+   .container {
+    width: 100%;
+    padding: 100px 0px 0px 0px;
+  }
   .slide {
     flex: 0 0 calc(33.33% - 15px);
   }
@@ -2025,9 +2047,25 @@ textarea:focus {
     gap: 30px;
   }
 
+  .productdetail-section {
+    display: grid;
+    grid-template-columns: 40% 60%;
+  }
+
+  .productdetail-item1 li:not(:first-child) {
+    margin-top: 30px;
+  }
+
+  .productdetail-item1 li:last-child {
+    margin-top: 50px;
+  }
 }
 
 @media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 60px 0px 0px 0px;
+  }
   .hero-video {
     aspect-ratio: 9 / 9;
   }
@@ -2096,10 +2134,26 @@ textarea:focus {
     padding: 0px;
   }
 
+  .productdetail-section {
+    display: grid;
+    grid-template-columns: 30% 70%;
+  }
+  .productdetail-item1 li:not(:first-child) {
+    margin-top: 20px;
+  }
+
+  .productdetail-item1 li:last-child {
+    margin-top: 40px;
+  }
+
 }
 
 
 @media (max-width: 480px) {
+  .container {
+    width: 100%;
+    padding: 50px 0px 0px 0px;
+  }
   .nav {
     padding: 10px 30px;
   }
@@ -2173,6 +2227,19 @@ textarea:focus {
   .product-grid {
     grid-template-columns: repeat(1, 1fr);
   }
+  .productdetail-section {
+    display: grid;
+    grid-template-columns: 40% 60%;
+  }
+  .productdetail-item1 li:not(:first-child) {
+    margin-top: 20px;
+  }
+  .productdetail-item1 li:nth-child(3) {
+    margin-top: 40px;
+  }
+  .productdetail-item1 li:last-child {
+    margin-top: 60px;
+  }
 }
 
 @media (max-width: 360px) {
@@ -2191,7 +2258,19 @@ textarea:focus {
   .about-bg {
     aspect-ratio: 8 / 9;
   }
-
+  .productdetail-section {
+    display: grid;
+    grid-template-columns: 45% 55%;
+  }
+  .productdetail-item1 li:not(:first-child) {
+    margin-top: 40px;
+  }
+   .productdetail-item1 li:nth-child(3) {
+    margin-top: 60px;
+  }
+  .productdetail-item1 li:last-child {
+    margin-top: 80px;
+  }
 
 
 }
