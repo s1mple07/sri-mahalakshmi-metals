@@ -1710,6 +1710,7 @@ textarea:focus {
   font-family: var(--font-inter);
   font-size: var(--para-size);
   text-transform: capitalize;
+  text-align: justify;
   font-weight: var(--font-normal-weight);
 }
 
@@ -2229,7 +2230,7 @@ textarea:focus {
   }
   .productdetail-section {
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 45% 55%;
   }
   .productdetail-item1 li:not(:first-child) {
     margin-top: 20px;
@@ -2240,6 +2241,13 @@ textarea:focus {
   .productdetail-item1 li:last-child {
     margin-top: 60px;
   }
+}
+
+@media (max-width: 420px) {
+  .productdetail-item1 li:nth-child(2) {
+    margin-top: 40px;
+  }
+
 }
 
 @media (max-width: 360px) {
