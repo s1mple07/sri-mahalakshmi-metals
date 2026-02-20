@@ -1695,6 +1695,7 @@ textarea:focus {
 .product-content li {
   display: flex;
   gap: 10px;
+  justify-content: space-between;
   margin-top: 20px;
   list-style: none;
 }
