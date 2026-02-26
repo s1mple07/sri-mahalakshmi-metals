@@ -43,8 +43,8 @@ export default function footer() {
                             <li><Link to="/AllProduct">gold idols</Link></li>
                             <li><Link to="/collection">pooja items</Link></li>
                             <li><Link to="/AllProduct">brass latest collection</Link></li>
-                            <li><Link to="/AllProduct">divine latest collection</Link></li>
-                            <li><Link to="/collection">brass new arrivals</Link></li>
+                            <li><Link to="/featuredcollection">divine latest collection</Link></li>
+                            <li><Link to="/featuredcollection">brass new arrivals</Link></li>
 
                         </div>
 

@@ -9,13 +9,13 @@ export default function Testimonialslider() {
     const [slidesPerView, setSlidesPerView] = useState(3);
 
     const slides = [
-        { profile: "./t1.png"      , star: "★ ★ ★ ★ ☆", profile_name: "ram"    ,review:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque accusantium possimus amet, nesciunt impedit vel quo. Inventore nostrum fuga, perspiciatis adipisci ipsa, rem quas illum et, aliquid deserunt expedita veniam?"},
-        { profile: "./profile1.jpg", star: "★ ★ ★ ★ ☆", profile_name: "kd"     ,review:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque accusantium possimus amet, nesciunt impedit vel quo. Inventore nostrum fuga, perspiciatis adipisci ipsa, rem quas illum et, aliquid deserunt expedita veniam?"},
-        { profile: "./profile2.jpg", star: "★ ★ ★ ★ ☆", profile_name: "sakthi" ,review:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque accusantium possimus amet, nesciunt impedit vel quo. Inventore nostrum fuga, perspiciatis adipisci ipsa, rem quas illum et, aliquid deserunt expedita veniam?"},
-        { profile: "./profile3.jpg", star: "★ ★ ★ ★ ☆", profile_name: "ravi"   ,review:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque accusantium possimus amet, nesciunt impedit vel quo. Inventore nostrum fuga, perspiciatis adipisci ipsa, rem quas illum et, aliquid deserunt expedita veniam?"},
-        { profile: "./profile1.jpg", star: "★ ★ ★ ★ ☆", profile_name: "srini"  ,review:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque accusantium possimus amet, nesciunt impedit vel quo. Inventore nostrum fuga, perspiciatis adipisci ipsa, rem quas illum et, aliquid deserunt expedita veniam?"},
-        { profile: "./profile2.jpg", star: "★ ★ ★ ★ ☆", profile_name: "guhan"  ,review:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque accusantium possimus amet, nesciunt impedit vel quo. Inventore nostrum fuga, perspiciatis adipisci ipsa, rem quas illum et, aliquid deserunt expedita veniam?"},
-        { profile: "./profile3.jpg", star: "★ ★ ★ ★ ☆", profile_name: "vijay"  ,review:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque accusantium possimus amet, nesciunt impedit vel quo. Inventore nostrum fuga, perspiciatis adipisci ipsa, rem quas illum et, aliquid deserunt expedita veniam?"},
+        { profile: "./t1.png"      , star: "★ ★ ★ ★ ☆", profile_name: "ram"    ,review:"“The craftsmanship and detailing of the idols are truly exceptional. The quality of the metal and finishing exceeded our expectations. Highly recommended for temple installations.”"},
+        { profile: "./profile1.jpg", star: "★ ★ ★ ★ ☆", profile_name: "kd"     ,review:"“We ordered a customized deity statue for our temple renovation, and the work was delivered with perfect traditional detailing. The dedication and precision are clearly visible.”"},
+        { profile: "./profile2.jpg", star: "★ ★ ★ ★ ☆", profile_name: "sakthi" ,review:"“The idols bring a powerful spiritual presence to our pooja room. The quality, durability, and finishing are excellent. Very satisfied with the purchase.”"},
+        { profile: "./profile3.jpg", star: "★ ★ ★ ★ ☆", profile_name: "ravi"   ,review:"“The ornamental crowns and Thiruvachi frames are beautifully crafted. They enhanced the grandeur of our temple festival decoration.”"},
+        { profile: "./profile1.jpg", star: "★ ★ ★ ★ ☆", profile_name: "srini"  ,review:"“Professional service, timely delivery, and authentic traditional craftsmanship. We will definitely recommend them for bulk temple orders.”"},
+        { profile: "./profile2.jpg", star: "★ ★ ★ ★ ☆", profile_name: "guhan"  ,review:"“The idol we received was beautifully crafted with fine traditional detailing. It truly enhanced the spiritual atmosphere of our temple.”"},
+        { profile: "./profile3.jpg", star: "★ ★ ★ ★ ☆", profile_name: "vijay"  ,review:"“Highly reliable for bulk temple orders. Timely delivery and excellent craftsmanship make them our trusted choice.”"},
     ];
 
        useEffect(() => {

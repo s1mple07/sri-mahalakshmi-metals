@@ -78,7 +78,7 @@ export default function Productview() {
 
                         <h4>Product detail :</h4>
                         <div className="productdetail-section">
-                            <div className="productdetail-item1"> 
+                           <div className="productdetail-item1"> 
                                   <li><h5>Dimensions    </h5><h5>:</h5></li>
                                   <li><h5>Customization </h5><h5>:</h5></li>
                                   <li><h5>material      </h5><h5>:</h5></li>

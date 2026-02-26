@@ -111,6 +111,7 @@ p {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 /* nav-section */
@@ -941,8 +942,11 @@ a {
   text-transform: capitalize;
   padding-left: 70px;
   line-height: 1.5;
+  transition: 0.5s ease;
 }
-
+.get-touch-link:hover{
+  color: var(--orange-color);
+}
 .address {
   max-width: 350px;
 }
@@ -1662,7 +1666,7 @@ textarea:focus {
 
 .product-content p {
   padding: 30px 0px;
-  max-width: 600px;
+  max-width: 700px;
   text-align: justify;
   line-height: 150%;
 }
@@ -1865,7 +1869,11 @@ textarea:focus {
 
 
 
-
+/* Feacturedcollectionspage  */
+.start-container{
+  width: 100%;
+  padding: 60px 0px 0px 0px;
+}
 
 
 
@@ -2248,6 +2256,9 @@ textarea:focus {
   .productdetail-item1 li:nth-child(2) {
     margin-top: 40px;
   }
+  .productdetail-item1 li:last-child {
+        margin-top: 75px;
+    }
 
 }
 

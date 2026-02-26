@@ -75,7 +75,7 @@ export default function FeaturedCollections() {
         "https://images.unsplash.com/photo-1674547541476-7f254bc2e463",
       category: "Pooja Items",
       path:"vinayagar",
-    }
+    },
   ];
 
   return (
@@ -119,8 +119,8 @@ export default function FeaturedCollections() {
           ))}
         </div>
 
-        
-        <button className='button2 collection-btn' > explore more</button>
+      
+        <Link to="/featuredcollection" ><button className='button2 collection-btn' > explore more</button></Link>
       </div>
     </section>
   );

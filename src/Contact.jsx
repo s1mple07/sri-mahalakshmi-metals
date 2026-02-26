@@ -32,19 +32,25 @@ Message: ${message}
               <h5>get in touch</h5>
 
               <li>
-                <div className='get-touch-icon'>
-                  <span><i className="fa fa-phone"></i></span>
-                  <h6>phone</h6>
-                </div>
-                <h6 className='get-touch-link'>+91 8637446196</h6>
+                <a href="tel:+918637446196">
+                  <div className='get-touch-icon'>
+                    <span><i className="fa fa-phone"></i></span>
+                    <h6>phone</h6>
+                  </div>
+
+                  <h6 className='get-touch-link'>+91 8637446196</h6>
+                </a>
               </li>
 
               <li>
+                <a href="mailto:Prabhakaran12257@gmail.com">
                 <div className='get-touch-icon'>
                   <span><i className="fa fa-envelope-o"></i></span>
                   <h6>Email</h6>
                 </div>
+                
                 <h6 className='get-touch-link'>Prabhakaran12257@gmail.com</h6>
+                </a>
               </li>
 
               <li>
@@ -103,7 +109,7 @@ Message: ${message}
                       28.5 32.9 42.5 15.8L282 426l124.6 
                       52.2c14.2 6 30.4-2.9 33-18.2l72-432
                       C515 7.8 493.3-6.8 476 3.2z"
-                      fill="currentColor" />
+                        fill="currentColor" />
                     </svg>
                   </span>
                 </button>
