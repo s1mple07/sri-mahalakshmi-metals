@@ -32,24 +32,24 @@ Message: ${message}
               <h5>get in touch</h5>
 
               <li>
-                <a href="tel:+918637446196">
-                  <div className='get-touch-icon'>
-                    <span><i className="fa fa-phone"></i></span>
-                    <h6>phone</h6>
-                  </div>
+                <div className='get-touch-icon'>
+                  <span><i className="fa fa-phone"></i></span>
+                  <h6>phone</h6>
+                </div>
 
+                <a href="tel:+918637446196">
                   <h6 className='get-touch-link'>+91 8637446196</h6>
                 </a>
               </li>
 
               <li>
-                <a href="mailto:Prabhakaran12257@gmail.com">
                 <div className='get-touch-icon'>
                   <span><i className="fa fa-envelope-o"></i></span>
                   <h6>Email</h6>
                 </div>
-                
-                <h6 className='get-touch-link'>Prabhakaran12257@gmail.com</h6>
+
+                <a href="mailto:Prabhakaran12257@gmail.com">
+                  <h6 className='get-touch-link'>Prabhakaran12257@gmail.com</h6>
                 </a>
               </li>
 
@@ -58,10 +58,13 @@ Message: ${message}
                   <span><i className="fa fa-map-marker"></i></span>
                   <h6>Address</h6>
                 </div>
+
+                <a href="https://www.google.com/maps/search/?api=1&query=35+Muthu+Kanan+Nagar+Thalluka+Police+Station+Kumbakonam+612001" target="_blank" rel="noopener noreferrer">
                 <h6 className='get-touch-link address'>
                   35, muthu kanan nagar, Thalluka police station back side,
                   Kumbakonam - 612 001.
                 </h6>
+                </a>
               </li>
 
               <div className="bussiness-time">

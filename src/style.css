@@ -1672,7 +1672,10 @@ textarea:focus {
 }
 
 .product-content h4 {
+  font-family: var(--font-poppins);
+  font-style: italic;
   text-align: left;
+  font-weight: 600;
   cursor: pointer;
   color: var(--secondary-color);
   text-transform: capitalize;

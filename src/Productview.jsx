@@ -76,7 +76,7 @@ export default function Productview() {
                         <h3>{product.name}</h3>
                         <p>{product.description}</p>
 
-                        <h4>Product detail :</h4>
+                        <h4>Product details :</h4>
                         <div className="productdetail-section">
                            <div className="productdetail-item1"> 
                                   <li><h5>Dimensions    </h5><h5>:</h5></li>
