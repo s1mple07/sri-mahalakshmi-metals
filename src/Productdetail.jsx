@@ -19,9 +19,10 @@ const Productdetail = [
     slug: "maha lakshmi amman",
     name: "maha lakshmi amman",
     images: [
-      "/Brass-Product/Brass Product - 04.png",
-      "/Brass-Product/Brass Product - 04.png",
-      "/Product Image/Product image -02.png"
+      "/Product Image/Laksmi/197e0ecbe0e04eb5b9748d95fc555fe0_1738502730055.jpg",
+      "/Product Image/Laksmi/2edfe05ced7b47bdbc530a22070fb058_1738755885063.jpg",
+      "/Product Image/Laksmi/4d889b6bcb7c4bebbff4b8d79c11d1cf_1738502730392.jpg",
+      "/Product Image/Laksmi/56a20b729efe426ea433bc68c8401740_1738755884974.jpg"
     ],
     Dimensions:"Available in multiple sizes.",
     Customization:"Height, Width & Weight can be customized.",
@@ -49,9 +50,10 @@ const Productdetail = [
     slug: "hanuman",
     name: "hanuman",
     images: [
-      "/Product Image/Product image -03.png",
-      "/Brass-Product/Brass Product - 04.png",
-      "/Product Image/Product image -02.png"
+      "/Product Image/Hanuman/1054dc9298104ccda3ca745c9fd155fa_1739163585787.jpg",
+      "/Product Image/Hanuman/de3eb25b9ff948d3ae1a4055b2e77f98_1738999249554.jpg",
+      "/Product Image/Hanuman/e9ff92682fc84adcab5b848193e28c72_1741111330211.jpg",
+      "/Product Image/Hanuman/eff9ef1647cd4c12b6447cc9465b92d9_1738755885200.jpg"
     ],
     Dimensions:"Available in multiple sizes.",
     Customization:"Height, Width & Weight can be customized.",
@@ -94,9 +96,10 @@ const Productdetail = [
     slug: "murugan",
     name: "murugan",
     images: [
-      "/Brass-Product/Brass Product - 01.png",
-      "/Brass-Product/Brass Product - 04.png",
-      "/Product Image/Product image -02.png"
+      "/Product Image/Murugan/7cb4be9120e1489e96eb92e0138f94ff_1738755884303.jpg",
+      "/Product Image/Murugan/IMG-20250130-WA0012.jpg",
+      "/Product Image/Murugan/IMG-20250130-WA0016.jpg",
+      "/Product Image/Murugan/IMG-20250201-WA0023.jpg"
     ],
     Dimensions:"Available in multiple sizes.",
     Customization:"Height, Width & Weight can be customized.",
@@ -124,9 +127,10 @@ const Productdetail = [
     slug: "Ayyappan",
     name: "Ayyappan",
     images: [
-      "/Brass-Product/Brass Product - 03.png",
-      "/Brass-Product/Brass Product - 04.png",
-      "/Product Image/Product image -02.png"
+      "/Product Image/Ayyapan/1b3c437761ea41a2879fca2e8b8fae32_1741677851652.jpg",
+      "/Product Image/Ayyapan/aac0f040cfd74b6aa3dd1d3a729139ed_1731744805207.jpg",
+      "/Product Image/Ayyapan/f9eb7a434f69459799fc64b89bd3c594_1739530678910.jpg",
+      "/Product Image/Ayyapan/Screenshot_2024-11-18-13-27-35-54_6012fa4d4ddec268fc5c7112cbb265e7.jpg"
     ],
     Dimensions:"Available in multiple sizes.",
     Customization:"Height, Width & Weight can be customized.",
@@ -139,9 +143,10 @@ const Productdetail = [
     slug: "Beedam",
     name: "Beedam",
     images: [
-      "/Brass-Product/Brass Product - 03.png",
-      "/Brass-Product/Brass Product - 04.png",
-      "/Product Image/Product image -02.png"
+      "/Product Image/Beedam/IMG20240130194454_01.jpg",
+      "/Product Image/Beedam/IMG20240218181150_Bokeh.jpg",
+      "/Product Image/Beedam/IMG20240218181202_Bokeh.jpg",
+      "/Product Image/Beedam/IMG20240218181228_Bokeh.jpg"
     ],
     Dimensions:"Available in multiple sizes.",
     Customization:"Height, Width & Weight can be customized.",
@@ -154,9 +159,10 @@ const Productdetail = [
     slug: "crown",
     name: "crown",
     images: [
-      "/Brass-Product/Brass Product - 03.png",
-      "/Brass-Product/Brass Product - 04.png",
-      "/Product Image/Product image -02.png"
+      "/Product Image/Crown/62daa53c2fd840b2ba224da9414fb873_1738755884137.jpg",
+      "/Product Image/Crown/783ad64e853046689a19235d028074e6_1726168735941.jpg",
+      "/Product Image/Crown/IMG-20250201-WA0017.jpg",
+      "/Product Image/Crown/IMG-20250201-WA0024.jpg"
     ],
     Dimensions:"Available in multiple sizes.",
     Customization:"Height, Width & Weight can be customized.",
@@ -169,9 +175,10 @@ const Productdetail = [
     slug: "Jadari",
     name: "Jadari",
     images: [
-      "/Brass-Product/Brass Product - 03.png",
-      "/Brass-Product/Brass Product - 04.png",
-      "/Product Image/Product image -02.png"
+      "/Product Image/Jadari/IMG-20211127-WA0007.jpg",
+      "/Product Image/Jadari/IMG20220105130540.jpg",
+      "/Product Image/Jadari/IMG20220105130844.jpg",
+      "/Product Image/Jadari/IMG20231130141757.jpg"
     ],
     Dimensions:"Available in multiple sizes.",
     Customization:"Height, Width & Weight can be customized.",
@@ -184,9 +191,8 @@ const Productdetail = [
     slug: "Kala Bhairavar",
     name: "Kala Bhairavar",
     images: [
-      "/Brass-Product/Brass Product - 03.png",
-      "/Brass-Product/Brass Product - 04.png",
-      "/Product Image/Product image -02.png"
+      "/Product Image/Kalabairavar/2a5ea4f2be48431b88a52a9fb9feec57_1719502932284.jpg",
+      "/Product Image/Kalabairavar/c56da71ed91d401486a75a584467acfe_1738912639272.jpg"
     ],
     Dimensions:"Available in multiple sizes.",
     Customization:"Height, Width & Weight can be customized.",
@@ -199,9 +205,8 @@ const Productdetail = [
     slug: "Vishnu",
     name: "Vishnu",
     images: [
-      "/Brass-Product/Brass Product - 03.png",
-      "/Brass-Product/Brass Product - 04.png",
-      "/Product Image/Product image -02.png"
+      "/Product Image/Vishnu/5c7ce105abd64caeb7c15031982d4430_1738502730675.jpg",
+      "/Product Image/Vishnu/85510e96c4ce4d69890cf3e71fed1793_1741677851528.jpg"
     ],
     Dimensions:"Available in multiple sizes.",
     Customization:"Height, Width & Weight can be customized.",

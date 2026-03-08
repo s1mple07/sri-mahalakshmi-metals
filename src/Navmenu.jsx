@@ -28,7 +28,7 @@ export default function Navmenu() {
     const products = [
         { name: "Ayyappan", path: "Ayyappan" },
         { name: "Beedam", path: "Beedam" },
-        { name: "crown", path: "crown" },
+        { name: "Crown", path: "crown" },
         { name: "Jadari", path: "Jadari" },
         { name: "Kala Bhairavar", path: "Kala Bhairavar" },
         { name: "Hanuman", path: "hanuman" },
