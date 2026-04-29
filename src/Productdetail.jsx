@@ -4,9 +4,9 @@ const Productdetail = [
     slug: "narasimha",
     name: "narasimha",
     images: [
-      "/Brass-Product/Brass Product - 02.png",
-      "/Brass-Product/Brass Product - 04.png",
-      "/Product Image/Product image -02.png"
+      "/Product Image/Narasimha/Screenshot_2024-11-15-19-37-42-00_6012fa4d4ddec268fc5c7112cbb265e7.jpg",
+      "/Product Image/Narasimha/e0c9a45c86d449939858cb37404f9ca4_1738502731479.jpg",
+      "/Brass-Product/Brass Product - 02.png"
     ],
     Dimensions:"Available in multiple sizes.",
     Customization:"Height, Width & Weight can be customized.",
@@ -35,9 +35,9 @@ const Productdetail = [
     slug: "vinayagar",
     name: "vinayagar",
     images: [
-      "/Product Image/Product image -02.png",
-      "/Brass-Product/Brass Product - 04.png",
-      "/Product Image/Product image -02.png"
+      "/Product Image/Vinayagar/IMG-20250201-WA0021.jpg",
+      "/Product Image/Vinayagar/IMG-20250201-WA0078.jpg",
+      "/Product Image/Vinayagar/IMG-20250201-WA0121.jpg"
     ],
     Dimensions:"Available in multiple sizes.",
     Customization:"Height, Width & Weight can be customized.",
@@ -66,9 +66,9 @@ const Productdetail = [
     slug: "KALASAM",
     name: "KALASAM",
     images: [
-      "/Product Image/Product image -04.png",
       "/Brass-Product/Brass Product - 04.png",
-      "/Product Image/Product image -02.png"
+      "/Brass-Product/Brass Product - 03.png",
+      "/Brass-Product/Brass Product - 02.png"
     ],
     Dimensions:"Available in multiple sizes.",
     Customization:"Height, Width & Weight can be customized.",
@@ -81,9 +81,9 @@ const Productdetail = [
     slug: "DHANVANTARI",
     name: "DHANVANTARI",
     images: [
-      "/Product Image/Product image -01.png",
+      "/Product Image/Dhanvantari/Dhanvantari.png",
       "/Brass-Product/Brass Product - 04.png",
-      "/Product Image/Product image -02.png"
+      "/Brass-Product/Brass Product - 01.png"
     ],
     Dimensions:"Available in multiple sizes.",
     Customization:"Height, Width & Weight can be customized.",
@@ -114,7 +114,7 @@ const Productdetail = [
     images: [
       "/Brass-Product/Brass Product - 03.png",
       "/Brass-Product/Brass Product - 04.png",
-      "/Product Image/Product image -02.png"
+      "/Brass-Product/Brass Product - 02.png"
     ],
     Dimensions:"Available in multiple sizes.",
     Customization:"Height, Width & Weight can be customized.",
@@ -219,9 +219,9 @@ const Productdetail = [
     slug: "parrot",
     name: "parrot",
     images: [
-      "/Brass-Product/Brass Product - 03.png",
-      "/Brass-Product/Brass Product - 04.png",
-      "/Product Image/Product image -02.png"
+      "/Product Image/Parrot/IMG-20250201-WA0009.jpg",
+      "/Product Image/Parrot/Screenshot_2024-09-25-11-30-39-37_6012fa4d4ddec268fc5c7112cbb265e7.jpg",
+      "/Brass-Product/Brass Product - 03.png"
     ],
     Dimensions:"Available in multiple sizes.",
     Customization:"Height, Width & Weight can be customized.",
@@ -234,9 +234,9 @@ const Productdetail = [
     slug: "Ramar",
     name: "Ramar",
     images: [
-      "/Brass-Product/Brass Product - 03.png",
-      "/Brass-Product/Brass Product - 04.png",
-      "/Product Image/Product image -02.png"
+      "/Product Image/Ramar/IMG-20250201-WA0087.jpg",
+      "/Product Image/Ramar/IMG-20250201-WA0090.jpg",
+      "/Product Image/Ramar/dc34d59e128c4f1384aec81f2299daa5_1741677851723.jpg"
     ],
     Dimensions:"Available in multiple sizes.",
     Customization:"Height, Width & Weight can be customized.",
@@ -249,9 +249,9 @@ const Productdetail = [
     slug: "Thiruvachi",
     name: "Thiruvachi",
     images: [
-      "/Brass-Product/Brass Product - 03.png",
-      "/Brass-Product/Brass Product - 04.png",
-      "/Product Image/Product image -02.png"
+      "/Product Image/Thiruvachi/1b8f42e3f8be47dbbc75542fa00703da_1738502730309.jpg",
+      "/Product Image/Thiruvachi/5008a06baf4746c2a07605964306a75c_1738502729991.jpg",
+      "/Product Image/Thiruvachi/1b8f42e3f8be47dbbc75542fa00703da_1738502730309 (1).jpg"
     ],
     Dimensions:"Available in multiple sizes.",
     Customization:"Height, Width & Weight can be customized.",
@@ -264,9 +264,9 @@ const Productdetail = [
     slug: "Vaganam",
     name: "Vaganam",
     images: [
-      "/Brass-Product/Brass Product - 03.png",
-      "/Brass-Product/Brass Product - 04.png",
-      "/Product Image/Product image -02.png"
+      "/Product Image/Vaganam/IMG-20250311-WA0010.jpg",
+      "/Product Image/Vaganam/IMG-20250311-WA0011.jpg",
+      "/Product Image/Vaganam/IMG-20250311-WA0012.jpg"
     ],
     Dimensions:"Available in multiple sizes.",
     Customization:"Height, Width & Weight can be customized.",
@@ -279,9 +279,9 @@ const Productdetail = [
     slug: "varagaiamman",
     name: "varagaiamman",
     images: [
-      "/Brass-Product/Brass Product - 03.png",
-      "/Brass-Product/Brass Product - 04.png",
-      "/Product Image/Product image -02.png"
+      "/Product Image/varagaiamman/3ce4544b94144a9ba90fc6c9cb30c828_1739163585640.jpg",
+      "/Product Image/varagaiamman/7b511986e32245239e6a1265ad5abb27_1739043169821.jpg",
+      "/Brass-Product/Brass Product - 03.png"
     ],
     Dimensions:"Available in multiple sizes.",
     Customization:"Height, Width & Weight can be customized.",
