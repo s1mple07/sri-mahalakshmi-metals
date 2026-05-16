@@ -220,8 +220,7 @@ const Productdetail = [
     name: "parrot",
     images: [
       "/Product Image/Parrot/IMG-20250201-WA0009.jpg",
-      "/Product Image/Parrot/Screenshot_2024-09-25-11-30-39-37_6012fa4d4ddec268fc5c7112cbb265e7.jpg",
-      "/Brass-Product/Brass Product - 03.png"
+      "/Product Image/Parrot/Screenshot_2024-09-25-11-30-39-37_6012fa4d4ddec268fc5c7112cbb265e7.jpg"
     ],
     Dimensions:"Available in multiple sizes.",
     Customization:"Height, Width & Weight can be customized.",
@@ -280,8 +279,7 @@ const Productdetail = [
     name: "varagaiamman",
     images: [
       "/Product Image/varagaiamman/3ce4544b94144a9ba90fc6c9cb30c828_1739163585640.jpg",
-      "/Product Image/varagaiamman/7b511986e32245239e6a1265ad5abb27_1739043169821.jpg",
-      "/Brass-Product/Brass Product - 03.png"
+      "/Product Image/varagaiamman/7b511986e32245239e6a1265ad5abb27_1739043169821.jpg"
     ],
     Dimensions:"Available in multiple sizes.",
     Customization:"Height, Width & Weight can be customized.",
